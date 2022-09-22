@@ -12,6 +12,6 @@ function MultiplicarPorDois(valor) {
 
 console.log(MultiplicarPorDois(5));
 
-let resultado = MultiplicarPorDois(5);
+let resultado = MultiplicarPorDois(10);
 
-console.log(resultado); // resultado é 10 pois a função multiplica valor por 2
+console.log(resultado); // resultado é 20 pois a função multiplica valor por 2

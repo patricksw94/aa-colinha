@@ -29,5 +29,5 @@ let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho; // usando && da fals
 console.log(podeAplicar);
 
 // Operador NOT (!)
-let candidatoRecusado = !podeAplicar;
+let candidatoRecusado = !podeAplicar; // sem ! fica true
 console.log(candidatoRecusado);

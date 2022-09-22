@@ -14,7 +14,7 @@ function fizzBuzz(entrada) {
     return 'Fizz';
     if (entrada % 5 === 0)
     return 'Buzz';
-    if (entrada % 3 === 0 && entrada % 5 === 0)
+    if (entrada % 3 === 0 && entrada % 5 === 0) // % significa divisível
     return 'FizzBuzz';
     return entrada;
 }
