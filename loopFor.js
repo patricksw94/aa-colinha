@@ -1,7 +1,7 @@
 // Loop for Loop
 
 for(let i = 0; i < 5; i++) {
-    if (i % 2 !== 0) {  // se resto de i for diferente de 0, então imprimir i || % = módulos
+    if (i % 2 !== 0) {  // se resto de i = 2 e for diferente de 0, então imprimir i || % = módulos
         console.log(i);
     }
 }

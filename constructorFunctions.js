@@ -19,5 +19,5 @@ function Celular(marcaCelular, tamanhoTela, capacidadeBateria){//propriedades se
     }
 }
 
-const celular= new Celular('asus', 5.5, 5000); //new usada para instanciar todas as propriedades através de um paramêtro
+const celular = new Celular('asus', 5.5, 5000); //new usada para instanciar todas as propriedades através de um paramêtro
 console.log(celular);

@@ -13,7 +13,7 @@ const celular = {
     }
 }
 
-function criarCelular(marcaCelular, tamanhoTela, capacidadeBateria){
+function criarCelular(marcaCelular, tamanhoTela, capacidadeBateria){ // destructor
     return {
         marcaCelular,
         tamanhoTela,

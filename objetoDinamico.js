@@ -4,7 +4,7 @@ const mouse = {
 }
 
 mouse.velocidade = 5000;
-mouse.trocarDPI = function () {
+mouse.trocarDPI = function() {
     console.log('mudando DPI');
 }
 

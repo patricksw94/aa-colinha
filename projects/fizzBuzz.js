@@ -8,7 +8,7 @@ const resultado = fizzBuzz(1);
 console.log(resultado);
 
 function fizzBuzz(entrada) {
-    if ( typeof entrada !== 'number')
+    if ( typeof entrada !== 'number')  // !== estritamente diferente
     return 'Não é um número';
     if (entrada % 3 === 0)
     return 'Fizz';
