@@ -6,4 +6,5 @@ const combinado = primeiro.concat(segundo);
 console.log(combinado);
 
 // dividir
-combinado.slice(1, 3);
+const cortado = combinado.slice(1, 3);
+console.log(cortado);
