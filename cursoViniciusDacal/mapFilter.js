@@ -6,11 +6,15 @@ const produtos = [
     { id: 5, nome: 'leite', valor: 2.20, categoria: 'alimento'},
 ];
 
-const ids = produtos.map(produto => produto.id);
+const alimentos = produtos
+.filter(p => p.categoria === 'alimento')         // p de produto, recebendo p e passando
+.map(a => a.nome);                               // a de alimento, recebe alimento.nome
+
+const ids = produtos.map(produto => produto.id);  //recebe produto e retorna produto.id
 const nomes = produtos.map(produto => produto.nome);
 
 const numeros = [1, 2, 3, 4, 5];
 
-const duplicados = numeros.map(x => x * 2);
+const duplicados = numeros.map(x => x * 2); // função x recebe x vs 2
 
-console.log(nomes);
+console.log(duplicados); 
