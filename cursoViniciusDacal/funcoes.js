@@ -16,23 +16,6 @@ const shoppingCart = {
     ]
 };
 
-/* const shoppingCart = {
-    user: { 
-        id: 1,
-    name: 'Patrick de Souza Lima',
-          },
-    items: [
-        { 
-            product: { id: 1 },
-            quantity: 10,
-         },
-        { 
-            product: { id: 2 },
-            quantity: 1,
-         }
-    ]
-}; */
-
 function formatShoppingCart(shoppingCart) {
     const result = {};
         result.user= {
