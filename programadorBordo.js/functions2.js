@@ -3,3 +3,5 @@ function Usuario() {
 }
 
 Usuario();
+
+new Usuario();  // novo objeto referenciando uma function
